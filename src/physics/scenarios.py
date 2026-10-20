@@ -77,6 +77,7 @@ SCENARIOS = [
         stone=Stone(0.1, np.array([0.0, 0.0]), np.array([10.0, 15.0])),
         t_span=(0.0, 5.0),
         choice="head_on",
+        c=C_HEADON / 2,
     ),
     Scenario(
         name="Headon: vertical throw",
@@ -86,10 +87,10 @@ SCENARIOS = [
     ),
     Scenario(
         name="Headon: strong resistance",
-        stone=Stone(1.0, np.array([0.0, 20.0]), np.array([20.0, 10.0])),
+        stone=Stone(1.0, np.array([0.0, 0.0]), np.array([20.0, 10.0])),
         t_span=(0.0, 10.0),
         choice="head_on",
-        c=C_HEADON * 10,
+        c=C_HEADON * 4,
     ),
 ]
 
