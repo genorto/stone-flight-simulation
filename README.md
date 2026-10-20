@@ -7,7 +7,7 @@
 ```bash
 python3 -m venv venv
 source venv/bin/activate
-pip install numpy scipy matplotlib
+pip install -r requirements.txt
 python3 src/main.py
 ```
 
@@ -33,3 +33,8 @@ python3 src/main.py "Viscous: basic"
 - `▶` — пуск / пауза.
 - `■` — сброс.
 - `F ~ v` и `F ~ v²` — смена модели сопротивления.
+
+## Вклад участников
+
+- **Кочетов Вячеслав:** физический движок симуляции, сценарии, сравнение численного и аналитического решения.
+- **Горохов Глеб:** визуализация, отчёт по результатам моделирования.
